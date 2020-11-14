@@ -1,0 +1,46 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/Arthus 3.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	background: #093660;
+	width: 600px;
+	color: white;	
+	padding: 15px;
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	background: #A3B3CC;
+	color: black;
+	padding:5px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color: #4897D9;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
